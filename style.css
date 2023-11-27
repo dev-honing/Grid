@@ -22,11 +22,10 @@
   align-items: center;
   
   /* 그리드 템플릿 적용 */
-  /* 열에 이름 지정하기 */
-  grid-template-columns: [col1] 100px [col2] 200px [col3] 0px;
+  grid-template-columns: repeat(5, 100px); /* 100px의 grid-item을 5개 생성 */
+  grid-gap: 10vw; /* 그리드 아이템 사이의 간격을 뷰포트 너비의 10%로 설정 */
 }
 
 .grid-item {
   border: 1px solid #000;
-  grid-column: col1 col2 col3; /* [col3]에 0px라도 명시하니 한 줄로 연결하는 데에 성공한 모습 */
 }
