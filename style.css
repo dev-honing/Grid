@@ -28,5 +28,5 @@
 
 .grid-item {
   border: 1px solid #000;
-  grid-column: col1 col2; /* 이어서 작성하면 특정 열을 연결할 수 있다. */
+  grid-column: col1 / col2; /* /로 구분해 작성하면 특정 열을 분리할 수 있다. */
 }
