@@ -22,8 +22,8 @@
   align-items: center;
   
   /* 그리드 템플릿 적용 */
-  grid-template-columns: 100px 200px 300px;
-  grid-template-rows: 10px 20px 30px;
+  /* grid-template-columns: 100px 200px 100px; */
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
 .grid-item {
