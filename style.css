@@ -23,10 +23,10 @@
   
   /* 그리드 템플릿 적용 */
   /* 열에 이름 지정하기 */
-  grid-template-columns: [col1] 100px [col2] 200px [col3];
+  grid-template-columns: [col1] 100px [col2] 200px [col3] 0px;
 }
 
 .grid-item {
   border: 1px solid #000;
-  grid-column: col1 col2 col3; /* grid-template-columns에서 [col3]의 길이를 명시하지 않아서 셋을 연결하는 것은 불가능했다. */
+  grid-column: col1 col2 col3; /* [col3]에 0px라도 명시하니 한 줄로 연결하는 데에 성공한 모습 */
 }
