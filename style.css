@@ -22,7 +22,7 @@
   align-items: center;
   
   /* 그리드 템플릿 적용 */
-  grid-template-columns: 100px 200px 300px; /* 3개의 열을 각각 100px, 200px, 300px로 지정 */
+  grid-template-rows: 100px 200px 300px; /* 3개의 행을 각각 100px, 200px, 300px로 지정 */
 }
 
 .grid-item {
