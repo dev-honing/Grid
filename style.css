@@ -22,7 +22,8 @@
   align-items: center;
   
   /* 그리드 템플릿 적용 */
-  grid-template-rows: 100px 200px 300px; /* 3개의 행을 각각 100px, 200px, 300px로 지정 */
+  /* 열에 이름 지정하기 */
+  grid-template-columns: [col1] 100px [col2] 200px [col3];
 }
 
 .grid-item {
