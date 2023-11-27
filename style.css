@@ -7,8 +7,14 @@
 #root {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid-container {
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid #555;
   display: grid;
 }
